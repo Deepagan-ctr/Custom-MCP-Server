@@ -89,42 +89,6 @@ Alternatively, you can test it with the MCP Inspector:
 mcp dev main.py
 ```
 
-## Example Usage
-
-### LinkedIn Profile Scraping
-```python
-# Personal profile
-result = await get_personal_profile("https://linkedin.com/in/username")
-
-# Company profile  
-result = await get_company_profile("https://linkedin.com/company/company-name")
-```
-
-### Social Media Scraping
-```python
-# Facebook profile
-result = await get_facebook_profile("https://facebook.com/username")
-
-# Instagram profile
-result = await get_instagram_profile("username")
-# or
-result = await get_instagram_profile("https://instagram.com/username")
-```
-
-### Web Search
-```python
-# Basic search
-result = await scrape_website("python programming")
-
-# Advanced search with parameters
-result = await scrape_website(
-    query="social media marketing",
-    gl="us",  # Country code
-    num=20,   # Number of results
-    page=1    # Page number
-)
-```
-
 ## Project Structure
 
 ```
