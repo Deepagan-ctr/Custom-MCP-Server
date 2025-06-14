@@ -91,14 +91,6 @@ Alternatively, you can test it with the MCP Inspector:
 mcp dev main.py
 ```
 
-### Direct Execution
-
-Run the server directly:
-
-```bash
-python main.py
-```
-
 ## Example Usage
 
 ### LinkedIn Profile Scraping
