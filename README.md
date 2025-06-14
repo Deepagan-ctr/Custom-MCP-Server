@@ -4,7 +4,7 @@
 
 </div>
 
-A comprehensive Model Context Protocol (MCP) server that provides social media scraping capabilities for LinkedIn, Facebook, Instagram, and Google search functionality.
+A comprehensive Model Context Protocol (MCP) server implementation providing advanced social media scraping and web intelligence capabilities across LinkedIn, Facebook, Instagram, and Google search platforms. This enterprise-grade solution features asynchronous processing, RESTful API integrations, and robust data extraction functionalities for professional networking analysis, social media monitoring, and competitive intelligence gathering. Built with scalable architecture and secure credential management, the server delivers reliable, high-performance data acquisition through multiple third-party providers.
 
 ## What is MCP?
 
