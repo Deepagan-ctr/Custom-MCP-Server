@@ -2,6 +2,25 @@
 
 # Social Media Scraper - MCP Server
 
+## 🛠️ Tech Stack
+
+This project is built with a modern, asynchronous Python stack, designed for efficient API interactions.
+
+### Core Technologies & Frameworks
+![FastMCP](https://img.shields.io/badge/FastMCP-8A2BE2?&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![HTTPX](https://img.shields.io/badge/httpx-003366?logo=python&logoColor=white)
+![AsyncIO](https://img.shields.io/badge/AsyncIO-3776AB?logo=python&logoColor=white)
+
+### Programming Language & Environment
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![uv](https://img.shields.io/badge/uv-007ACC?logo=python&logoColor=white)
+![dotenv](https://img.shields.io/badge/dotenv-ECD53F?logo=dotenv&logoColor=black)
+
+### APIs & Data Formats
+![REST API](https://img.shields.io/badge/REST_API-0277BD?&logoColor=white)
+![RapidAPI](https://img.shields.io/badge/RapidAPI-3333FF?logo=apollographql&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white)
 </div>
 
 A comprehensive Model Context Protocol (MCP) server that provides social media scraping capabilities for LinkedIn, Facebook, Instagram, and Google search functionality.
