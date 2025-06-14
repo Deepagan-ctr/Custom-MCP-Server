@@ -182,33 +182,3 @@ To avoid being blocked by APIs:
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Disclaimer
-
-This tool is for educational and research purposes only. Please ensure you:
-
-- Comply with the terms of service of each platform
-- Respect privacy and data protection laws
-- Only scrape publicly available information
-- Use the data responsibly and ethically
-
-## Support
-
-For issues and questions:
-
-- Check the [Issues](https://github.com/yourusername/custom-mcp-server/issues) page
-- Create a new issue if your problem isn't already reported
-- Include relevant error messages and configuration details
-
-## Changelog
-
-### v1.0.0
-- Initial release
-- LinkedIn, Facebook, Instagram scraping support
-- Google Search integration
-- Async operations support
-- Comprehensive error handling
