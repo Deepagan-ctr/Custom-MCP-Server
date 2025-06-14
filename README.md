@@ -11,7 +11,7 @@ A comprehensive Model Context Protocol (MCP) server that provides social media s
 **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)** is an open standard that enables AI assistants to securely connect with external data sources and tools. MCP servers act as bridges between AI models and various services, allowing for enhanced capabilities like real-time data access, API integrations, and custom tool execution.
 
 ## Features
-
+This server exposes the following tools for an AI assistant to use:
 - **LinkedIn Profile Scraping**: Extract personal and company profile data
 - **Facebook Profile Scraping**: Fetch public profile information
 - **Instagram Profile Scraping**: Get profile data and basic information
