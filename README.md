@@ -127,7 +127,7 @@ All tools return JSON-formatted strings containing the scraped data. Example res
   "timestamp": "2024-01-15T10:30:00Z"
 }
 ```
-But using these tools via Claudes makes it readable.
+But using these tools via Claude makes it readable.
 ## Error Handling
 
 The server includes comprehensive error handling:
