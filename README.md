@@ -1,5 +1,7 @@
 <div align="center">
-# Social Media Scraper - MCP Server
+
+# Social Media Scraper MCP Server
+
 </div>
 
 A comprehensive Model Context Protocol (MCP) server that provides social media scraping capabilities for LinkedIn, Facebook, Instagram, and Google search functionality.
