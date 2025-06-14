@@ -8,8 +8,6 @@ A comprehensive Model Context Protocol (MCP) server that provides social media s
 - **Facebook Profile Scraping**: Fetch public profile information
 - **Instagram Profile Scraping**: Get profile data and basic information
 - **Google Search**: Perform web searches using Google Serper API
-- **Async Operations**: Built with async/await for efficient concurrent processing
-- **Error Handling**: Robust error handling with detailed logging
 
 ## Available Tools
 
@@ -64,7 +62,7 @@ SERPER_API_KEY=your_serper_api_key_here
 
 1. **RapidAPI Key**: 
    - Sign up at [RapidAPI](https://rapidapi.com/)
-   - Subscribe to the following APIs:
+   - Subscribe to the following APIs (Most Important):
      - Fresh LinkedIn Profile Data
      - Facebook Scraper3
      - Instagram Scraper Stable API
