@@ -8,7 +8,7 @@ A comprehensive Model Context Protocol (MCP) server that provides social media s
 
 ## What is MCP?
 
-**Model Context Protocol (MCP)** is an open standard that enables AI assistants to securely connect with external data sources and tools. MCP servers act as bridges between AI models and various services, allowing for enhanced capabilities like real-time data access, API integrations, and custom tool execution.
+**[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)** is an open standard that enables AI assistants to securely connect with external data sources and tools. MCP servers act as bridges between AI models and various services, allowing for enhanced capabilities like real-time data access, API integrations, and custom tool execution.
 
 ## Features
 
@@ -34,7 +34,7 @@ A comprehensive Model Context Protocol (MCP) server that provides social media s
 
 ### Adding MCP to your Python project
 
-We recommend using uv to manage your Python projects.
+We recommend using [uv](https://docs.astral.sh/uv/) to manage your Python projects.
 
 If you haven't created a uv-managed project yet, create one:
 
@@ -83,7 +83,7 @@ SERPER_API_KEY=your_serper_api_key_here
 
 ### Running with Claude Desktop
 
-You can install this server in Claude Desktop and interact with it right away by running:
+You can install this server in [Claude Desktop](https://claude.ai/download) and interact with it right away by running:
 
 ```bash
 mcp install main.py
