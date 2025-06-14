@@ -1,6 +1,6 @@
 <div align="center">
 
-# Social Media Scraper - MCP Server
+# Social Media Scraper - Custom MCP Server
 
 </div>
 
