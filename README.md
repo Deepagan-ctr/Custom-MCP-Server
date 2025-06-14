@@ -129,23 +129,6 @@ All tools return JSON-formatted strings containing the scraped data. Example res
 ```
 But using these tools via Claudes makes it readable.
 
-## Error Handling
-
-The server includes comprehensive error handling:
-
-- **Network Errors**: Automatic retry logic with exponential backoff
-- **API Rate Limits**: Graceful handling of rate limit responses
-- **Invalid URLs**: Validation and helpful error messages
-- **Missing Data**: Clear indication when profile data is unavailable
-
-## Rate Limiting
-
-To avoid being blocked by APIs:
-
-- Requests are limited to reasonable intervals
-- Concurrent requests are managed
-- API usage is monitored and logged
-
 ## Contributing
 
 1. Fork the repository
