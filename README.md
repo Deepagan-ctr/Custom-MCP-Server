@@ -1,11 +1,14 @@
 <div align="center">
-Social Media Scraper MCP Server
+
+# Social Media Scraper MCP Server
+
 </div>
 
 A comprehensive Model Context Protocol (MCP) server that provides social media scraping capabilities for LinkedIn, Facebook, Instagram, and Google search functionality.
 
-What is MCP?
-Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect with external data sources and tools. MCP servers act as bridges between AI models and various services, allowing for enhanced capabilities like real-time data access, API integrations, and custom tool execution.
+## What is MCP?
+
+**Model Context Protocol (MCP)** is an open standard that enables AI assistants to securely connect with external data sources and tools. MCP servers act as bridges between AI models and various services, allowing for enhanced capabilities like real-time data access, API integrations, and custom tool execution.
 
 ## Features
 
