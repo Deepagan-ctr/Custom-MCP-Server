@@ -17,19 +17,6 @@ This server exposes the following tools for an AI assistant to use:
 - **Instagram Profile Scraping**: Get profile data and basic information
 - **Google Search**: Perform web searches using Google Serper API
 
-## Available Tools
-
-### LinkedIn Tools
-- `get_personal_profile(linkedin_url)` - Scrape LinkedIn personal profiles
-- `get_company_profile(linkedin_url)` - Scrape LinkedIn company pages
-
-### Social Media Tools
-- `get_facebook_profile(profile_url)` - Scrape Facebook profile data
-- `get_instagram_profile(username_or_url)` - Scrape Instagram profile information
-
-### Web Search Tools
-- `scrape_website(query, gl, num, page)` - Perform Google searches with customizable parameters
-
 ## Installation
 
 ### Adding MCP to your Python project
@@ -91,6 +78,7 @@ You can install this server in [Claude Desktop](https://claude.ai/download) and 
 ```bash
 mcp install main.py
 ```
+Later go to claude paste the URLs of required platform nad ask the AI to provide information of the mentioned URLs.
 
 ### Testing with MCP Inspector
 
