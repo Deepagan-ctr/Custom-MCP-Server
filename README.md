@@ -85,6 +85,7 @@ If the changes don't appear, follow these steps:
 1. Open Task Manager (Ctrl+Shift+Esc on Windows or Activity Monitor on Mac)
 2. End all Claude processes/tasks
 3. Rerun the installation command:
+   
    ```bash
    mcp install main.py
    ```
