@@ -102,14 +102,14 @@ mcp dev main.py
 
 ```
 custom-mcp-server/
-├── 📁 __pycache__/          # Python bytecode cache (auto-generated)
-├── 📁 .venv/                # Virtual environment directory
-├── 🔧 .env                  # Environment variables (API keys)
-├── 📄 .python-version       # Python version specification
-├── 🐍 main.py               # Main MCP server implementation
-├── ⚙️ pyproject.toml        # Project configuration and dependencies
-├── 📖 README.md             # Project documentation
-└── 🔒 uv.lock               # UV lock file for reproducible builds
+├── __pycache__/          # Python bytecode cache (auto-generated)
+├── .venv/                # Virtual environment directory
+├── .env                  # Environment variables (API keys)
+├── .python-version       # Python version specification
+├── main.py               # Main MCP server implementation
+├── pyproject.toml        # Project configuration and dependencies
+├── README.md             # Project documentation
+└── uv.lock               # UV lock file for reproducible builds
 ```
 
 
