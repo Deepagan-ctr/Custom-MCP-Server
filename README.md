@@ -102,13 +102,16 @@ mcp dev main.py
 
 ```
 custom-mcp-server/
-├── main.py              # Main MCP server implementation
-├── .env                 # Environment variables (create this)
-├── .env.example         # Example environment file
-├── pyproject.toml       # Project configuration
-├── README.md           # This file
-└── requirements.txt    # Dependencies (if not using uv)
+├── 📁 __pycache__/          # Python bytecode cache (auto-generated)
+├── 📁 .venv/                # Virtual environment directory
+├── 🔧 .env                  # Environment variables (API keys)
+├── 📄 .python-version       # Python version specification
+├── 🐍 main.py               # Main MCP server implementation
+├── ⚙️ pyproject.toml        # Project configuration and dependencies
+├── 📖 README.md             # Project documentation
+└── 🔒 uv.lock               # UV lock file for reproducible builds
 ```
+
 
 ## Response Format
 
@@ -138,4 +141,4 @@ But using these tools via Claudes makes it readable.
 4. Add tests if applicable
 5. Submit a pull request
 
-
+Incase of any Queries kindly leave a text or put mail given in my profile.
