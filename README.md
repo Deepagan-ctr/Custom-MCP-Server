@@ -85,7 +85,7 @@ Later, go to Claude AI (desktop version) and you will see changes in the platfor
 3. Rerun the installation command:
    ```bash
    mcp install main.py
-
+   ```
 Paste the URLs of required platform and ask the AI to provide information of the mentioned URLs.
 
 ### Testing with MCP Inspector
