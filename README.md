@@ -137,6 +137,7 @@ custom-mcp-server/
 ├── .venv/                # Virtual environment directory
 ├── .env                  # Environment variables (API keys)
 ├── .python-version       # Python version specification
+├── Claude_View.png       # Tools of the server in Claude.
 ├── main.py               # Main MCP server implementation
 ├── pyproject.toml        # Project configuration and dependencies
 ├── README.md             # Project documentation
