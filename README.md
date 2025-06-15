@@ -48,8 +48,9 @@ Then add MCP to your project dependencies:
 ```bash
 uv add "mcp[cli]"
 ```
--This will auto-generate files and folders similar to the project structure mentioned below, also create a .env file to securely store the API keys.
--In the files generated look for main.py and copy paste the code given in main.py (repo).
+This will auto-generate files and folders similar to the project structure mentioned below, also create a .env file to securely store the API keys.
+
+In the files generated look for main.py and copy paste the code given in main.py (repo).
 
 ### Install Additional Dependencies
 
