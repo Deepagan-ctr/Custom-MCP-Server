@@ -19,7 +19,7 @@ This server exposes the following tools for an AI assistant to use:
 
 ## Installation
 
-### Adding MCP to your Python project
+### Step 1: Adding MCP to your Python project
 
 We recommend using [uv](https://docs.astral.sh/uv/) to manage your Python projects.
 
@@ -30,6 +30,8 @@ uv init custom-mcp-server
 cd custom-mcp-server
 ```
 
+### Step 2: Install MCP Dependencies
+
 Then add MCP to your project dependencies:
 
 ```bash
@@ -37,9 +39,11 @@ uv add "mcp[cli]"
 ```
 This will auto-generate files and folders similar to the project structure mentioned below, also create a .env file to securely store the API keys.
 
+### Step 3: Add Project Code
+
 In the files generated look for main.py and copy paste the code given in main.py (repo).
 
-### Install Additional Dependencies
+### Step 4: Install Additional Dependencies
 
 ```bash
 uv add httpx python-dotenv fastmcp
@@ -47,16 +51,7 @@ uv add httpx python-dotenv fastmcp
 
 ## Environment Configuration
 
-### Environment Variables
-
-Create a `.env` file in your project root with the following variables:
-
-```env
-RAPIDAPI_KEY=your_rapidapi_key_here
-SERPER_API_KEY=your_serper_api_key_here
-```
-
-### API Keys Setup
+### Step 1: API Keys Setup
 
 1. **RapidAPI Key**: 
    - Sign up at [RapidAPI](https://rapidapi.com/)
@@ -69,9 +64,20 @@ SERPER_API_KEY=your_serper_api_key_here
    - Sign up at [Serper.dev](https://serper.dev/)
    - Get your API key from the dashboard
 
+### Step 2: Environment Variables
+
+Create a `.env` file in your project root with the following variables:
+
+```env
+RAPIDAPI_KEY=your_rapidapi_key_here
+SERPER_API_KEY=your_serper_api_key_here
+```
+
 ## Usage
 
 ### Running with Claude Desktop
+
+#### Step 1: Install the Server
 
 You can install this server in [Claude Desktop](https://claude.ai/download) and interact with it right away by running:
 
@@ -79,7 +85,13 @@ You can install this server in [Claude Desktop](https://claude.ai/download) and 
 mcp install main.py
 ```
 
-Later, go to Claude AI (desktop version) and you will see changes in the platform similar to the [screenshot shown](https://github.com/Sharan-Kumar-R/Custom-MCP-Server/blob/main/Claude_View.png) . 
+#### Step 2: Verify Installation
+
+Later, go to Claude AI (desktop version) and you will see changes in the platform similar to the [screenshot shown](https://github.com/Sharan-Kumar-R/Custom-MCP-Server/blob/main/Claude_View.png).
+
+#### Step 3: Start Using the Tools
+
+Paste the URLs of required platform and ask the AI to provide information of the mentioned URLs.
 
 ### Example Usage
 
@@ -95,17 +107,18 @@ Get company information for: https://linkedin.com/company/example-company
 
 If the MCP tools don't appear in Claude Desktop:
 
-1. **End all Claude processes**:
-   - Windows: Open Task Manager (Ctrl+Shift+Esc)
-   - Mac: Open Activity Monitor
-   - End all Claude-related processes
+#### Step 1: End Claude Processes
+- Windows: Open Task Manager (Ctrl+Shift+Esc)
+- Mac: Open Activity Monitor
+- End all Claude-related processes
 
-2. **Reinstall the server**:
-   ```bash
-   mcp install main.py
-   ```
+#### Step 2: Reinstall the Server
+```bash
+mcp install main.py
+```
 
-   
+#### Step 3: Restart Claude Desktop
+
 Paste the URLs of required platform and ask the AI to provide information of the mentioned URLs.
 
 ### Testing with MCP Inspector
@@ -129,7 +142,6 @@ custom-mcp-server/
 ├── README.md             # Project documentation
 └── uv.lock               # UV lock file for reproducible builds
 ```
-
 
 ## Response Format
 
