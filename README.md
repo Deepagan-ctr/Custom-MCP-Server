@@ -79,7 +79,8 @@ You can install this server in [Claude Desktop](https://claude.ai/download) and 
 mcp install main.py
 ```
 
-Later go to Claude AI (desktop version) you will see such kinda changes in the platfomrm [Desktop Screenshot](https://github.com/Sharan-Kumar-R/Custom-MCP-Server/blob/main/Claude_View.png) if not open task bar end all tasks of Claude and rerun the above command. 
+Later, go to Claude AI (desktop version) and you will see changes in the platform similar to the [screenshot shown](https://github.com/Sharan-Kumar-R/Custom-MCP-Server/blob/main/Claude_View.png) . If the changes don't appear, follow these steps:
+
 
 Paste the URLs of required platform and ask the AI to provide information of the mentioned URLs.
 
