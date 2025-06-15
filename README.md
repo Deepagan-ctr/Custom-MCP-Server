@@ -81,14 +81,30 @@ mcp install main.py
 
 Later, go to Claude AI (desktop version) and you will see changes in the platform similar to the [screenshot shown](https://github.com/Sharan-Kumar-R/Custom-MCP-Server/blob/main/Claude_View.png) . 
 
-If the changes don't appear, follow these steps:
-1. Open Task Manager (Ctrl+Shift+Esc on Windows or Activity Monitor on Mac)
-2. End all Claude processes/tasks
-3. Rerun the installation command:
-   
+### Example Usage
+
+```
+Please scrape this LinkedIn profile: https://linkedin.com/in/example-profile
+```
+
+```
+Get company information for: https://linkedin.com/company/example-company
+```
+
+### Troubleshooting
+
+If the MCP tools don't appear in Claude Desktop:
+
+1. **End all Claude processes**:
+   - Windows: Open Task Manager (Ctrl+Shift+Esc)
+   - Mac: Open Activity Monitor
+   - End all Claude-related processes
+
+2. **Reinstall the server**:
    ```bash
    mcp install main.py
    ```
+
    
 Paste the URLs of required platform and ask the AI to provide information of the mentioned URLs.
 
