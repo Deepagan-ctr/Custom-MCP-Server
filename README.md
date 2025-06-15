@@ -58,7 +58,7 @@ In the files generated look for main.py and copy paste the code given in main.py
 uv add httpx python-dotenv fastmcp
 ```
 
-## Configuration
+## Environment Configuration
 
 ### Environment Variables
 
