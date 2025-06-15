@@ -79,13 +79,16 @@ You can install this server in [Claude Desktop](https://claude.ai/download) and 
 mcp install main.py
 ```
 
-Later, go to Claude AI (desktop version) and you will see changes in the platform similar to the [screenshot shown](https://github.com/Sharan-Kumar-R/Custom-MCP-Server/blob/main/Claude_View.png) . If the changes don't appear, follow these steps:
+Later, go to Claude AI (desktop version) and you will see changes in the platform similar to the [screenshot shown](https://github.com/Sharan-Kumar-R/Custom-MCP-Server/blob/main/Claude_View.png) . 
+
+If the changes don't appear, follow these steps:
 1. Open Task Manager (Ctrl+Shift+Esc on Windows or Activity Monitor on Mac)
 2. End all Claude processes/tasks
 3. Rerun the installation command:
    ```bash
    mcp install main.py
    ```
+   
 Paste the URLs of required platform and ask the AI to provide information of the mentioned URLs.
 
 ### Testing with MCP Inspector
