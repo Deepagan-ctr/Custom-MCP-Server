@@ -48,6 +48,7 @@ Then add MCP to your project dependencies:
 ```bash
 uv add "mcp[cli]"
 ```
+This will create files and folders similar to the project structure mentioned below, also create a .env file to securely store the API keys.
 
 ### Install Additional Dependencies
 
