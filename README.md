@@ -172,7 +172,7 @@ But using these tools via Claudes makes it readable.
 4. Add tests if applicable
 5. Submit a pull request
 
-In case of any Queries kindly leave a text or put mail given in my profile.
+In case of any queries, please leave a message or contact me via the email provided in my profile.
 
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
