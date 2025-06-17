@@ -11,7 +11,9 @@ A comprehensive Model Context Protocol (MCP) server that provides social media s
 **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)** is an open standard that enables AI assistants to securely connect with external data sources and tools. MCP servers act as bridges between AI models and various services, allowing for enhanced capabilities like real-time data access, API integrations, and custom tool execution.
 
 ## Features
+
 This server exposes the following tools for an AI assistant to use:
+
 - **LinkedIn Profile Scraping**: Extract personal and company profile data
 - **Facebook Profile Scraping**: Fetch public profile information
 - **Instagram Profile Scraping**: Get profile data and basic information
@@ -37,6 +39,7 @@ Then add MCP to your project dependencies:
 ```bash
 uv add "mcp[cli]"
 ```
+
 This will auto-generate files and folders similar to the project structure mentioned below, also create a .env file to securely store the API keys.
 
 ### Step 3: Add Project Code
@@ -103,17 +106,18 @@ Please scrape this LinkedIn profile: https://linkedin.com/in/example-profile
 Get company information for: https://linkedin.com/company/example-company
 ```
 
-### Troubleshooting
-
+## Troubleshooting
 
 If the MCP tools don't appear in Claude Desktop:
 
 #### Step 1: End Claude Processes
-- Windows: Open Task Manager (Ctrl+Shift+Esc)
-- Mac: Open Activity Monitor
+
+- **Windows**: Open Task Manager (Ctrl+Shift+Esc)
+- **Mac**: Open Activity Monitor
 - End all Claude-related processes
 
 #### Step 2: Reinstall the Server
+
 ```bash
 mcp install main.py
 ```
@@ -162,7 +166,8 @@ All tools return JSON-formatted strings containing the scraped data. Example res
   "timestamp": "2024-01-15T10:30:00Z"
 }
 ```
-But using these tools via Claudes makes it readable.
+
+But using these tools via Claude makes it readable.
 
 ## Contributing
 
@@ -173,6 +178,8 @@ But using these tools via Claudes makes it readable.
 5. Submit a pull request
 
 In case of any queries, please leave a message or contact me via the email provided in my profile.
+
+---
 
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
