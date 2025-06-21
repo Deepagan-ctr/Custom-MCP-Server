@@ -1,8 +1,19 @@
 <div align="center">
-
 # Social Media Scraper - Custom MCP Server
-
 </div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+  <img src="https://img.shields.io/badge/httpx-FF6B35?style=for-the-badge&logo=python&logoColor=white" alt="HTTPX">
+  <img src="https://img.shields.io/badge/fastmcp-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="FastMCP">
+  <img src="https://img.shields.io/badge/rapidapi-0055DA?style=for-the-badge&logo=rapidapi&logoColor=white" alt="RapidAPI">
+  <img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn API">
+  <img src="https://img.shields.io/badge/facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook API">
+  <img src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram API">
+  <img src="https://img.shields.io/badge/google_serper-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Serper API">
+  <img src="https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON">
+  <img src="https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black" alt="Python Dotenv">
+</p>
 
 A comprehensive Model Context Protocol (MCP) server that provides social media scraping capabilities for LinkedIn, Facebook, Instagram, and Google search functionality.
 
