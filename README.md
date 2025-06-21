@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/instagram-FF1493?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram API">
   <img src="https://img.shields.io/badge/google_serper-32CD32?style=for-the-badge&logo=google&logoColor=white" alt="Google Serper API">
 </p>
-
+<br>
 A comprehensive Model Context Protocol (MCP) server that provides social media scraping capabilities for LinkedIn, Facebook, Instagram, and Google search functionality.
 
 ## What is MCP?
