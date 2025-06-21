@@ -114,17 +114,17 @@ Get company information for: https://linkedin.com/company/example-company
 
 If the MCP tools don't appear in Claude Desktop:
 
-#### Step 1: End Claude Processes
+### Step 1: End Claude Processes
 - Windows: Open Task Manager (Ctrl+Shift+Esc)
 - Mac: Open Activity Monitor
 - End all Claude-related processes
 
-#### Step 2: Reinstall the Server
+### Step 2: Reinstall the Server
 ```bash
 mcp install main.py
 ```
 
-#### Step 3: Restart Claude Desktop
+### Step 3: Restart Claude Desktop
 
 Paste the URLs of required platform and ask the AI to provide information of the mentioned URLs.
 
