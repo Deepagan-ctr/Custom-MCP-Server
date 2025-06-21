@@ -1,7 +1,6 @@
-<div align="center">
-# Social Media Scraper - Custom MCP Server
-</div>
+<h1 align="center">Social Media Scraper - Custom MCP Server</h1>
 
+<br>
 <p align="center">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
   <img src="https://img.shields.io/badge/fastmcp-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="FastMCP">
