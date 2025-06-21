@@ -66,7 +66,7 @@ uv add httpx python-dotenv fastmcp
 
 ### Step 2: Environment Variables
 
-Create a `.env` file in your project root with the following variables:
+Update the `.env` file in your project root with the following variables:
 
 ```env
 RAPIDAPI_KEY=your_rapidapi_key_here
