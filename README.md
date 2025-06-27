@@ -133,7 +133,7 @@ Paste the URLs of required platform and ask the AI to provide information of the
 Alternatively, you can test it with the MCP Inspector:
 
 ```bash
-mcp dev main.py
+uv run mcp dev main.py
 ```
 
 ## Project Structure
