@@ -121,7 +121,7 @@ If the MCP tools don't appear in Claude Desktop:
 
 ### Step 2: Reinstall the Server
 ```bash
-mcp install main.py
+uv run mcp install main.py
 ```
 
 ### Step 3: Restart Claude Desktop
