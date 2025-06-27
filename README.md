@@ -89,7 +89,7 @@ SERPER_API_KEY=your_serper_api_key_here
 You can install this server in [Claude Desktop](https://claude.ai/download) and interact with it right away by running:
 
 ```bash
-mcp install main.py
+uv run mcp install main.py
 ```
 
 #### Step 2: Verify Installation
